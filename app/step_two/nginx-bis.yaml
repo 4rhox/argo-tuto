@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
+  namespace: testname
   labels:
     run: nginx-bis
   name: nginx-bis
